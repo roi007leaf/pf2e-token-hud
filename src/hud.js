@@ -840,8 +840,8 @@ export class HUD extends Application {
                 event,
                 selected: attitude,
                 onClick: value => {
-                    if (value === 'default') actor.update({ 'flags.pf2e-hud.attitude': null })
-                    else actor.update({ 'flags.pf2e-hud.attitude': value === 'default' ? null : value })
+                    if (value === 'indifferent') actor.update({ 'flags.pf2e-hud.attitude': null })
+                    else actor.update({ 'flags.pf2e-hud.attitude': value === 'indifferent' ? null : value })
                 },
             })
         })
