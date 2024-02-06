@@ -1,3 +1,60 @@
+# 1.62.4
+
+-   fixed main HUD `Spells` icon being disabled if a character only had consumable spells
+
+# 1.62.3
+
+-   fixed issue with prepared spells showing charges instead of the `+-` toggle
+
+# 1.62.2
+
+-   fixed issue with equipment identification dialog
+
+# 1.62.1
+
+-   replace the `Consumable` spell category with the appropriate `Wand` or `Scroll` in the spells sidebar
+
+# 1.62.0
+
+-   this is a `5.13.1` release
+-   added support for wands and scrolls in the spells sidebar
+    -   their type label is `Consumable`
+    -   you must first `Draw` the item before being able to `Cast` it
+    -   you can modify the item charges
+
+# 1.61.0
+
+-   this is a `5.13.0` release
+-   updated the different helpers and data changes made in the system
+-   added a max width to the `carry-type` menu for long container names
+-   added support for sub-items (attachments)
+-   now close the popup when the `use` button in an item description is clicked
+-   roll option toggles will now show up in their respective sidebar
+-   fixed item description popup tags styling
+-   fixed ammunition showing the `use` button
+-   fixed consumables `use` button showing to observers
+
+# 1.60.5
+
+-   filter out npc pre-remaster traits shown in the `Notes` popup
+
+# 1.60.4
+
+-   updated some skill actions to use their "modern" version
+-   fixed non-existent skill actions error
+
+# 1.60.3
+
+-   fixed empty spellcasting entry slots error
+
+# 1.60.2
+
+-   fixed popup error
+
+# 1.60.1
+
+-   updated missed system helpers that were changed in the recent updates
+
 # 1.60.0
 
 -   this is a `5.12.0` release
